@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Practica1 {
+module Practica_1 {
 }
