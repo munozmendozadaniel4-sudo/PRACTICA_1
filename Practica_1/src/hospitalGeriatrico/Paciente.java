@@ -6,12 +6,20 @@ public class Paciente {
      private String nombreCompleto;
      private LocalDate fechaDeNacimiento;
      private String direccion;
-     private int numeroTelefonico;
+     private Long numeroTelefonico;
      private String curp;
      
-     public void inicializacionPaciente(String nombreCompleto, LocalDate fechaDeNacimiento,
-    		 int numeroTelefonico, String curp)
+     public void Paciente(String nombreCompleto, LocalDate fechaDeNacimiento, String curp)
      {
+    	 this.nombreCompleto = nombreCompleto;
+    	 this.fechaDeNacimiento = fechaDeNacimiento;
+    	 this.curp = curp;
+     }
+     
+     public void Paciente(String nombreCompleto, LocalDate fechaDeNacimiento,
+    		 Long numeroTelefonico, String curp)
+     {
+      Super():
     	 this.nombreCompleto = nombreCompleto;
     	 this.fechaDeNacimiento = fechaDeNacimiento;
     	 this.numeroTelefonico = numeroTelefonico;
