@@ -16,17 +16,17 @@ public class Paciente {
     	 this.curp = curp;
      }
      
-     public void Paciente(String nombreCompleto, LocalDate fechaDeNacimiento,
+     public Paciente(String nombreCompleto, LocalDate fechaDeNacimiento,
     		 Long numeroTelefonico, String curp)
      {
-      Super():
+   
     	 this.nombreCompleto = nombreCompleto;
     	 this.fechaDeNacimiento = fechaDeNacimiento;
     	 this.numeroTelefonico = numeroTelefonico;
     	 this.curp = curp;
      }
      
-     public int setNumeroTelefonico()
+     public Long setNumeroTelefonico()
      {
     	 return numeroTelefonico;
      } 
